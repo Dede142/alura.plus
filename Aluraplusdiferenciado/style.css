@@ -20,6 +20,8 @@ body{
 
 .container{
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 .container-botao {
   background-color: var(--botão-azul);
@@ -28,3 +30,8 @@ body{
   color: var(--branco-principal);
   display: block;
 }
+
+  .botão-secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+  }
